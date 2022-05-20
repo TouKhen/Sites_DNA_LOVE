@@ -236,3 +236,30 @@ footer {
         }
     }
 }
+
+// RESPONSIVE
+
+@media (max-width: 1400px) {
+    .container {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .our-jobs {
+        padding-top: 6rem !important;
+    }
+
+    .jobs-cards {
+        .card {
+            flex-direction: column !important;
+
+            > div {
+                width: 100% !important;
+
+                &:last-child {
+                    padding: 2rem 0;
+                }
+            }
+        }
+    }
+}

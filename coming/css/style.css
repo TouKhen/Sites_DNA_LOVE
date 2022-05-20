@@ -199,4 +199,25 @@ footer ul li a, footer ul li h1 {
 }
 footer ul li a:hover, footer ul li a:focus, footer ul li h1:hover, footer ul li h1:focus {
   color: #FF4040;
+}
+
+@media (max-width: 1400px) {
+  .container {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .our-jobs {
+    padding-top: 6rem !important;
+  }
+
+  .jobs-cards .card {
+    flex-direction: column !important;
+  }
+  .jobs-cards .card > div {
+    width: 100% !important;
+  }
+  .jobs-cards .card > div:last-child {
+    padding: 2rem 0;
+  }
 }/*# sourceMappingURL=style.css.map */
