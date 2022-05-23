@@ -125,6 +125,9 @@ header h2 {
   width: 35%;
 }
 .jobs-cards .card > div:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 65%;
   padding: 2rem 4rem;
 }

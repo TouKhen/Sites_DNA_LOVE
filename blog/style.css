@@ -1,0 +1,135 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+header {
+    background-color: #111111;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6% 0;
+    height: 60px;
+}
+nav h4{
+    color: #f9004d;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .5s;
+
+}
+.btn {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+body{
+    background-color:rgb(211, 203, 203);
+}
+#img1 {
+    height: 550px;
+    width: 1110px;
+    align-items: center;
+    margin: 0 auto;
+}
+.blog {
+    position: relative;
+    background-color: white;
+    height: 1500px;
+    width: 1000px;
+    margin: 0 auto ;
+    top: -100px;
+}
+#img2{
+    margin: 0 auto;
+    width: 500px;
+}
+#img3{
+    margin: 0 auto;
+    width: 500px;
+}
+.Coblog{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5%;
+}
+hr{
+    height: 8px;
+    width: 100%;
+    background-color: black;
+}
+.Coblog p {
+    font-family: 'Roboto', sans-serif;
+}
+.Coblog h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: -5px;
+    padding-bottom: 0%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.Coblog h5{
+    font-style: oblique;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.Coblog h6 {
+    font-style: italic;
+    position: relative;
+    color: rgb(77, 73, 73);
+    margin-top: -13px;
+    padding-top: -12px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+  
+footer{
+    background-color: #f9004d;
+    height: 120px;
+}
+footer ul  {
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+   list-style-type: none;
+}
+footer ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(58, 56, 56);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+footer ul li a:hover{
+    color: white;
+    transition: 0.5s;
+}
