@@ -6,6 +6,9 @@ body {
 header {
     background-color: #111111;
 }
+a {
+    color: #f99900;
+}
 nav {
     display: flex;
     align-items: center;
@@ -14,7 +17,7 @@ nav {
     height: 60px;
 }
 nav h4{
-    color: #f9004d;
+    color: #f99900;
     font-weight: bold;
     font-size: 30px;
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -32,12 +35,12 @@ nav ul li a{
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 nav ul li a:hover{
-    color: #f9004d;
+    color: #f99900;
     transition: .5s;
 
 }
 .btn {
-    background-color: #f9004d;
+    background-color: #f99900;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -62,7 +65,6 @@ body{
 .blog {
     position: relative;
     background-color: white;
-    height: 1500px;
     width: 1000px;
     margin: 0 auto ;
     top: -100px;
@@ -97,8 +99,8 @@ hr{
 }
 .Coblog h5{
     font-style: oblique;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 10px;
+    margin-bottom: 20px;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 .Coblog h6 {
@@ -111,7 +113,7 @@ hr{
 }
   
 footer{
-    background-color: #f9004d;
+    background-color: #f99900;
     height: 120px;
 }
 footer ul  {
@@ -132,4 +134,22 @@ footer ul li a {
 footer ul li a:hover{
     color: white;
     transition: 0.5s;
+}
+
+@media (max-width: 1100px) {
+    #img1 {
+        width: 100%;
+    }
+
+    .blog {
+        width: 100%;
+    }
+
+    #img2, #img3 {
+        width: 90%;
+    }
+
+    footer {
+        width: 100%;
+    }
 }
